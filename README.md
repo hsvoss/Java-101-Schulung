@@ -43,7 +43,7 @@ Updates.
 Auch ich bevorzuge die Schulungen, in denen man nur aufmerksam zuhört und sich berieseln lässt. Jedoch wissen wir alle:
 Da bleibt meistens nicht viel hängen, außer man probiert es einmal selbst aus. Daher wird es nach jedem Termin einige
 Übungsaufgaben geben, in denen ihr euch mit dem vorgestellen Tool beschäftigen sollt. Zeitumfang ca. 1 Stunde.
-Insbesondere für die ersten Termine werde ich übungsaufgaben stellen, für die es Unittests zur Selbstkontrolle gibt.
+Insbesondere für die ersten Termine werde ich Übungsaufgaben stellen, für die es Unittests zur Selbstkontrolle gibt.
 In den Unittests stehen Musterlösungen für die Aufgaben und sie werden grün, wenn Alles richtig ist.
 
 
