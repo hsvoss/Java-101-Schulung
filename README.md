@@ -11,9 +11,9 @@ Programmiersprache) bestehen.
 
 # Termine
 
-1. [TBA] Uhr lesen für ~~Kinder~~ Informatiker mit java.time.*
-1. [TBA] Collections
-1. [TBA] Lambdas (Voraussetzung: gute Kenntnisse von Collections)
+1. [06.07.21 - 16 Uhr] Uhr lesen für Informatiker mit java.time.*
+1. [20.07.21 - 16 Uhr] Collections
+1. [03.08.21 - 16 Uhr] Lambdas (Voraussetzung: gute Kenntnisse von Collections)
 1. [TBA] Streams (Voraussetzung: gute Kenntnisse von Lambdas)
 1. [TBA] Future & CompletableFuture (Voraussetzung: gute Kenntnisse von Lambdas)
 1. [TBA] Dinge die es seit 2018 gibt...
@@ -23,6 +23,7 @@ Programmiersprache) bestehen.
 1. [TBA] Spring Boot - provide an API
 1. [TBA] OpenApi
 
+Die Schulung soll im 2-Wochentakt stattfinden und bleibt Überschneidungsfrei mit Lutz Angular-Schulung.
 
 ## Opt-In-Verfahren
 
