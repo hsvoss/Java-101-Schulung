@@ -1,6 +1,6 @@
 import model.Tasse;
 
-public class Aufgabe1 {
+public class AufgabenSession00 {
 
     // Schaue dir die Klassen im Ordner 'model' an. Wenn du dir einen groben Überblick verschafft hast, beginne mit der
     // Aufgabe. Dazu editiere nur die Methodenrümpfe und lasse die Methodenköpfe so wie sie sind.

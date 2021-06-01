@@ -9,14 +9,14 @@ import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class Aufgabe1Test {
+class AufgabenSession00Test {
 
     private Tasse tasse;
 
     @BeforeEach
     void setUp() {
-        Aufgabe1 aufgabe1 = new Aufgabe1();
-        tasse = aufgabe1.aufgabe1();
+        AufgabenSession00 aufgabenSession00 = new AufgabenSession00();
+        tasse = aufgabenSession00.aufgabe1();
     }
 
     @AfterEach
