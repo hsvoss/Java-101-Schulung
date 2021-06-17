@@ -94,4 +94,16 @@ class AufgabenSession01Test {
     }
 
 
+    @Test
+    void task8() {
+//      Lösung:
+//      LocalDate deutschesWeihnachten = LocalDate.of(2021, 12, 24);
+//      LocalDate russischesWeihnachten = LocalDate.of(2022, 1, 7);
+//
+//      Period zeitperiode = Period.between(deutschesWeihnachten, russischesWeihnachten);
+//      return zeitperiode.getDays();
+
+        assertEquals(14, AufgabenSession01.task8());
+
+    }
 }

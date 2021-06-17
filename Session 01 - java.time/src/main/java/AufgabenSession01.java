@@ -1,13 +1,10 @@
-import java.time.DayOfWeek;
-import java.time.LocalDate;
-import java.time.LocalTime;
-import java.time.ZonedDateTime;
+import java.time.*;
 
 public class AufgabenSession01 {
 
 
     public static void main(String[] args) {
-        task1();
+        task8();
 //        task2();
 //        task3("07:13:25");
 //        task3("7:13:25");
@@ -71,5 +68,17 @@ public class AufgabenSession01 {
     static ZonedDateTime task7() {
 
         return null;
+    }
+
+
+    /**
+     * In Russland wird Weihnachten erst am 7. Januar gefeiert.
+     * Wie viele Tage müssen die Kinder länger auf ihre Geschenke warten?
+     * Tipp: schau dir mal Period und Duration an.
+     * @return der int soll die Tageszahl enthalten
+     */
+    static int task8() {
+
+      return 0;
     }
 }
