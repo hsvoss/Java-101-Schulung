@@ -2,21 +2,24 @@ import java.time.*;
 
 public class AufgabenSession01 {
 
+    // Java Doc: https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html
+    // Vortragsempfehlung: 'Ein Tag hat nur 24±1 Stunden' von Miroslav Šedivý  https://www.youtube.com/watch?v=Q7-Hw0SM9x0
+    // Schulungsmaterial von Ralf Domnik: https://visionconsultinggmbhcokg.sharepoint.com/austausch/Dokumente/Forms/AllItems.aspx?RootFolder=%2Faustausch%2FDokumente%2FKurse%5FSchulungen%2FUnterlagen%2FJava%20Inhouse%20Schulung%202019&FolderCTID=0x012000F45E9AA57E72BA4BBD2AFD8A398DD1A9
 
     public static void main(String[] args) {
-        task8();
-//        task2();
+        task2();
 //        task3("07:13:25");
 //        task3("7:13:25");
 //        task3("14:7:05");
 //        task6("1992-06-09");
+//        task8();
     }
 
     /**
      * Welche Uhrzeit haben wir jetzt?
      */
     static LocalTime task1() {
-        return LocalTime.now();
+        return null;
     }
 
     /**
@@ -70,6 +73,14 @@ public class AufgabenSession01 {
         return null;
     }
 
+    /**
+     * Denke über folgende Fragen nach:
+     */
+    static void task8() {
+        // Es gibt die Klassen LocalTime, LocalDate, LocalDateTime und ZonedDateTime.
+        // Warum gibt es kein ZonedDate?
+        // Warum gibt es kein ZonedTime?
+    }
 
     /**
      * In Russland wird Weihnachten erst am 7. Januar gefeiert.
@@ -77,7 +88,7 @@ public class AufgabenSession01 {
      * Tipp: schau dir mal Period und Duration an.
      * @return der int soll die Tageszahl enthalten
      */
-    static int task8() {
+    static int task9() {
 
       return 0;
     }
