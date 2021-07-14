@@ -11,7 +11,7 @@ Programmiersprache) bestehen.
 
 # Termine
 
-1. [06.07.21 - 16 Uhr] Uhr lesen für Informatiker mit java.time.* ([Aufzeichnung](https://visionconsultinggmbhcokg-my.sharepoint.com/:v:/r/personal/hendrik_sebastian_voss_visionconsultinggmbhcokg_onmicrosoft_com/Documents/Aufnahmen/Java%20Schulung%20von%20Hendrik-20210706_160250-Besprechungsaufzeichnung.mp4))
+1. [06.07.21 - 16 Uhr] Uhr lesen für Informatiker mit java.time.* ([Aufzeichnung](https://visionconsultinggmbhcokg-my.sharepoint.com/:v:/g/personal/hendrik_sebastian_voss_visionconsultinggmbhcokg_onmicrosoft_com/Ec3PKQn_AXBLlmc_2MFXGFAB78GzB2XG-LVUor3sNAfzkQ?e=NTHBaQ))
 1. [20.07.21 - 16 Uhr] Collections
 1. [03.08.21 - 16 Uhr] Lambdas (Voraussetzung: gute Kenntnisse von Collections)
 1. [TBA] Streams (Voraussetzung: gute Kenntnisse von Lambdas)
