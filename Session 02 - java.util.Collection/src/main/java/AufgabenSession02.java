@@ -8,7 +8,9 @@ import java.util.Set;
 
 public class AufgabenSession02 {
 
+//    Stöbert in:
 //    https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html
+//    https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html
 //    https://docs.oracle.com/javase/8/docs/api/java/util/Map.html
 //    https://docs.oracle.com/javase/8/docs/api/java/math/BigDecimal.html
 
