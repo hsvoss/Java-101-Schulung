@@ -12,7 +12,7 @@ Programmiersprache) bestehen.
 # Termine
 
 1. [06.07.21 - 16 Uhr] Uhr lesen für Informatiker mit java.time.* ([Aufzeichnung](https://visionconsultinggmbhcokg-my.sharepoint.com/:v:/g/personal/hendrik_sebastian_voss_visionconsultinggmbhcokg_onmicrosoft_com/Ec3PKQn_AXBLlmc_2MFXGFAB78GzB2XG-LVUor3sNAfzkQ?e=NTHBaQ))
-1. [20.07.21 - 16 Uhr] Collection, Map & BigDecimal
+1. [20.07.21 - 16 Uhr] Collection, Map & BigDecimal ([Aufzeichnung](https://visionconsultinggmbhcokg-my.sharepoint.com/:v:/g/personal/hendrik_sebastian_voss_visionconsultinggmbhcokg_onmicrosoft_com/Efva_mebiZlJt3uIPtndiFgBAWWmoOFd056dI5eauYdEzw?e=R98Y1e))
 1. [03.08.21 - 16 Uhr] Lambdas & CompletableFuture
 1. [17.08.21 - 16 Uhr] Streams (Voraussetzung: gute Kenntnisse von Lambdas & Collection)
 1. [TBA] Dinge die es seit 2018 gibt...
