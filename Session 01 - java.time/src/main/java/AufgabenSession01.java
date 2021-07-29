@@ -7,7 +7,7 @@ public class AufgabenSession01 {
     // Schulungsmaterial von Ralf Domnik: https://visionconsultinggmbhcokg.sharepoint.com/austausch/Dokumente/Forms/AllItems.aspx?RootFolder=%2Faustausch%2FDokumente%2FKurse%5FSchulungen%2FUnterlagen%2FJava%20Inhouse%20Schulung%202019&FolderCTID=0x012000F45E9AA57E72BA4BBD2AFD8A398DD1A9
 
     public static void main(String[] args) {
-        task2();
+        task9();
 //        task3("07:13:25");
 //        task3("7:13:25");
 //        task3("14:7:05");
@@ -89,7 +89,12 @@ public class AufgabenSession01 {
      * @return der int soll die Tageszahl enthalten
      */
     static int task9() {
+        LocalDate deutschesWeihnachten = LocalDate.of(2021, 12, 24);
+        LocalDate russischesWeihnachten = LocalDate.of(2022, 1, 7);
 
-      return 0;
+        Period zeitperiode = Period.between(deutschesWeihnachten, russischesWeihnachten);
+        System.out.println(zeitperiode);
+        return zeitperiode.getDays();
+
     }
 }
