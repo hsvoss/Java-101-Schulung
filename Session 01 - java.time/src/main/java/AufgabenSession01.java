@@ -32,7 +32,7 @@ public class AufgabenSession01 {
 
 
     /**
-     * Schaue dir die DateTimeFormatter zum parsen von Uhrzeiten an. Es wird eine Normale Uhrzeit Übergeben. Zum Beispiel "7:13:25" oder 14:7:05
+     * Schaue dir die DateTimeFormatter zum parsen von Uhrzeiten an. Es wird eine normale Uhrzeit übergeben. Zum Beispiel "7:13:25" oder 14:7:05
      */
     static LocalTime task3(String uhrzeit) {
 
