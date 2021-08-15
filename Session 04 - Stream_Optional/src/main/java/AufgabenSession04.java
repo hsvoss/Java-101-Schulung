@@ -18,7 +18,7 @@ public class AufgabenSession04 {
 
     public static void main(String[] args) {
         List<Berater> beraterList = Helper.generateData();
-        task6(beraterList);
+        task1(beraterList);
 
 //        checkPrime(323); // false
 //        checkPrime(331); // true
@@ -32,26 +32,41 @@ public class AufgabenSession04 {
      * kopiere dir bitte diese Methode und manipuliere die Daten in der Kopie. Sonst funktionieren vielleicht die
      * Folgeaufgaben nicht mehr.
      */
-    static void task1() {
+    static void task0() {
         List<Berater> beraterList = Helper.generateData();
     }
-
 
     /**
      * Gib alle Berater zurück, die nur bei einem Kunden im Einsatz sind.
      *
      * @return die gefilterte Liste
      */
-    static List<Berater> task2(List<Berater> beraterList) {
+    static List<Berater> task1(List<Berater> beraterList) {
         return null;
     }
 
-// Task 2b)
+// Task 1b)
 //     * Schaue dir den Stream im Debugger an:
 //     * 1. Nutze die Stream-Trace-Funktion deiner IDE (https://www.jetbrains.com/help/idea/analyze-java-stream-operations.html)
 //     * 2. Setze einen Breakpoint nur an deinem Lambda-Ausdruck und nicht am '.filter'
 //     * 3. Setze einen Breakpoint am '.filter' und nicht am Lambda-Ausdruck.
 //     * 4. Setze einen Breakpoint sowohl am '.filter' als auch am Lambda-Ausdruck.
+
+    /**
+     * Um einen Stream zu beenden, verwenden wir später meistens .collect() und .reduce().
+     * Außerdem gibt es auch noch .forEach() mit dem wir jedes Element konsumieren können.
+     * <p>
+     * Verwende einen Stream um, die alle Berater-Namen in der Console ausgeben zu lassen.
+     * Dann parallelisiere deinen Stream. Was fällt dir auf? Und welche Konsequenzen hat das?
+     */
+    static void task2(List<Berater> beraterList) {
+
+    }
+
+// Task 2b)
+// Deine Lambda-Ausdrücke müssen einige Kriterien erfüllen:
+// Schlage folgende Wörter nach: 'Side-effects', 'Stateless behaviors', 'Non-interference'
+//   https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/stream/package-summary.html
 
 
     /**
