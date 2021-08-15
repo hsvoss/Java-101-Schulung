@@ -20,7 +20,7 @@ class AufgabenSession04Test {
 
 
     @Test
-    void task2() {
+    void task1() {
         //Lösungsvorschlag:
 //        return beraterList.stream()
 //                .filter(berater -> berater.getKunden().size() == 1)
@@ -31,9 +31,21 @@ class AufgabenSession04Test {
                 .filter(berater -> berater.getKunden().size() == 1)
                 .collect(Collectors.toList());
 
-        List<Berater> actualData = AufgabenSession04.task2(Helper.generateData());
+        List<Berater> actualData = AufgabenSession04.task1(Helper.generateData());
 
         assertEquals(expectedData, actualData);
+    }
+
+    void task2() {
+        //Lösungsvorschlag:
+//        beraterList.stream()
+//                .parallel()
+//                .forEach(berater -> System.out.println(berater.getName()));
+
+        // Es fällt auf, dass die Ausgabe-Reihenfolge zufällig ist und wir uns nicht darauf verlassen können,
+        // dass die ForEach-Loop immer in derselben Reihenfolge ausgeführt wird.
+        // Mit einem .forEachOrdered() können wir das natürlich erzwingen.
+
     }
 
 
