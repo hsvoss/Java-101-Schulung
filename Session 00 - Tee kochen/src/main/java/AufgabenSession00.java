@@ -1,4 +1,7 @@
 import model.Tasse;
+import model.Zutaten;
+
+import java.util.List;
 
 public class AufgabenSession00 {
 
@@ -9,13 +12,12 @@ public class AufgabenSession00 {
 
     /**
      * Ein echter englischer Tee besteht aus Wasser, Teeblättern, Milch und Zucker. Bringe mir eine Tasse.
+     *
      * @return die Tasse mit Tee, den du mir bringen sollst.
      */
-    public Tasse aufgabe1(){
-        return null;
+    public Tasse aufgabe1() {
+        return new Tasse(List.of(Zutaten.WASSER, Zutaten.TEEBLAETTER, Zutaten.MILCH, Zutaten.ZUCKER));
     }
-
-
 
 
 }
