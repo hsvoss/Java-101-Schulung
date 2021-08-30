@@ -3,10 +3,9 @@ import model.Branche;
 import model.Kunde;
 
 import java.math.BigInteger;
-import java.util.Collection;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class AufgabenSession04 {
 
@@ -42,7 +41,9 @@ public class AufgabenSession04 {
      * @return die gefilterte Liste
      */
     static List<Berater> task1(List<Berater> beraterList) {
-        return null;
+        return beraterList.stream()
+                .filter(berater -> berater.getKunden().size() == 1)
+                .collect(Collectors.toList());
     }
 
 // Task 1b)
@@ -76,8 +77,10 @@ public class AufgabenSession04 {
      * @return die gefilterte Liste
      */
     static Collection<String> task3(List<Berater> beraterList) {
-
-        return null;
+        return beraterList.stream()
+                .filter(berater -> berater.getKunden().size() == 1)
+                .map(Berater::getName)
+                .collect(Collectors.toSet());
     }
 
 
@@ -92,8 +95,12 @@ public class AufgabenSession04 {
      */
     static Set<String> task4(List<Berater> beraterList) { // schwer
 //    static Collection<String>  task4(List<Berater> beraterList) { // einfach
-
-        return null;
+        return beraterList.stream()
+                .filter(berater -> berater.getKunden().size() >= 2)
+                .flatMap(berater -> berater.getKunden().stream())
+                .map(Kunde::getFirmenname)
+                .sorted()
+                .collect(Collectors.toCollection(LinkedHashSet::new));
     }
 
     /**
@@ -104,7 +111,10 @@ public class AufgabenSession04 {
      */
     static Map<Branche, List<Kunde>> task5(List<Berater> beraterList) {
 
-        return null;
+        return beraterList.stream()
+                .flatMap(berater -> berater.getKunden().stream())
+                .sorted(Comparator.comparing(Kunde::getFirmenname))
+                .collect(Collectors.groupingBy(Kunde::getBranche));
     }
 
 
@@ -114,7 +124,18 @@ public class AufgabenSession04 {
      */
     static Map<Branche, List<Kunde>> task5b(List<Berater> beraterList) {
 
-        return null;
+        List<Kunde> toSort = new ArrayList<>();
+        for (Berater berater : beraterList) {
+            for (Kunde kunde : berater.getKunden()) {
+                toSort.add(kunde);
+            }
+        }
+        toSort.sort(Comparator.comparing(Kunde::getFirmenname));
+        Map<Branche, List<Kunde>> map = new HashMap<>();
+        for (Kunde kunde : toSort) {
+            map.computeIfAbsent(kunde.getBranche(), k -> new ArrayList<>()).add(kunde);
+        }
+        return map;
     }
 
 
@@ -124,7 +145,10 @@ public class AufgabenSession04 {
      */
     static Map<String, Set<Branche>> task6(List<Berater> beraterList) {
 
-        return null;
+        return beraterList.stream()
+                .collect(Collectors.toMap(Berater::getName, berater -> berater.getKunden().stream()
+                        .map(Kunde::getBranche).collect(Collectors.toSet()))
+                );
     }
 
 
@@ -146,8 +170,10 @@ public class AufgabenSession04 {
      * @return true, wenn es sich um eine Primzahl handelt, false, wenn nicht
      */
     static boolean checkPrime(int numberToTest) {
-
-        return false;
+        boolean noPrime = IntStream.range(2, (numberToTest + 1) / 2)
+                .parallel()
+                .anyMatch(i -> numberToTest % i == 0);
+        return !noPrime;
     }
 
 
@@ -157,8 +183,13 @@ public class AufgabenSession04 {
      * Der Rückgabewert soll genau wie in der Demo ein BigInteger sein. Sonst wäre es ja zu einfach ;-)
      */
     static BigInteger task8(List<Berater> beraterList) {
-
-        return null;
+        return beraterList.stream()
+                .map(Berater::getSchuhgroesse)
+                .reduce(
+                        BigInteger.ZERO,
+                        (BigInteger bigInteger, Integer integer) -> bigInteger.add(BigInteger.valueOf(integer)),
+                        BigInteger::add
+                );
     }
 
 

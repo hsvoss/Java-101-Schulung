@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Objects;
+
 public class Apfel implements Obst {
     String sorte;
 
@@ -9,12 +11,14 @@ public class Apfel implements Obst {
 
     @Override
     public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
         Apfel apfel = (Apfel) o;
-        return sorte.length() == apfel.sorte.length();
+        return Objects.equals(sorte, apfel.sorte);
     }
 
     @Override
     public int hashCode() {
-        return sorte.length();
+        return Objects.hash(sorte);
     }
 }

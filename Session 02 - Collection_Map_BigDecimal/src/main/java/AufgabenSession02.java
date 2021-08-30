@@ -85,12 +85,14 @@ public class AufgabenSession02 {
         String a = "5.6";
         String b = "5.8";
 
-        return null;
+        BigDecimal bigDecimalA = new BigDecimal("5.6");
+        BigDecimal bigDecimalB = new BigDecimal("5.8");
+        return bigDecimalA.add(bigDecimalB);
     }
 
     /**
      * Untersuche d und e. Erkläre, weshalb d.equals(e) false ergibt.
-     *
+     * <p>
      * Wenn du nicht weiter kommst, versuche erst die nächste Aufgabe,
      * bevor du in die Lösung schaust.
      */

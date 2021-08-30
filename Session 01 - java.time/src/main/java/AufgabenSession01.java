@@ -1,4 +1,5 @@
 import java.time.*;
+import java.time.format.DateTimeFormatter;
 
 public class AufgabenSession01 {
 
@@ -36,7 +37,7 @@ public class AufgabenSession01 {
      */
     static LocalTime task3(String uhrzeit) {
 
-        return null;
+        return LocalTime.parse(uhrzeit, DateTimeFormatter.ofPattern("H:m:s"));
     }
 
 
@@ -45,23 +46,22 @@ public class AufgabenSession01 {
      */
     static DayOfWeek task4() {
 
-        return null;
+        return LocalDate.now().getDayOfWeek();
     }
 
     /**
      * Und welcher Wochentag war gestern?
      */
     static DayOfWeek task5() {
-
-        return null;
+        return LocalDate.now().getDayOfWeek().minus(1);
     }
 
     /**
      * Am 1992-06-09 kam ich zu Welt. Wann werde ich 10000 Tage alt?
      */
     static LocalDate task6(String input) {
-
-        return null;
+        LocalDate dayOfBirth = LocalDate.parse(input);
+        return dayOfBirth.plusDays(10000);
     }
 
     /**
@@ -69,8 +69,16 @@ public class AufgabenSession01 {
      * Wie spät war es in diesem Moment in Los Angeles?
      */
     static ZonedDateTime task7() {
+//      Erstelle ein LocalTime-Objekt für 7 Uhr Morgens
+        LocalTime siebenUhr = LocalTime.of(7, 0);
+//      reichere 'siebenUhr' um das Datum 1. Februar 2003 an
+        LocalDateTime siebenUhrMitDatum = siebenUhr.atDate(LocalDate.of(2003, 2, 1));
+//      reichere 'siebenUhrMitDatum' um die Zeitzone von Tokyo an.
+        ZonedDateTime tokyo = siebenUhrMitDatum.atZone(ZoneId.of("Asia/Tokyo"));
+//      Objekt mit anderer Zeizzone vom selben Moment zurück geben lassen
+        ZonedDateTime losAngles = tokyo.withZoneSameInstant(ZoneId.of("America/Los_Angeles"));
 
-        return null;
+        return losAngles;
     }
 
     /**
@@ -86,6 +94,7 @@ public class AufgabenSession01 {
      * In Russland wird Weihnachten erst am 7. Januar gefeiert.
      * Wie viele Tage müssen die Kinder länger auf ihre Geschenke warten?
      * Tipp: schau dir mal Period und Duration an.
+     *
      * @return der int soll die Tageszahl enthalten
      */
     static int task9() {

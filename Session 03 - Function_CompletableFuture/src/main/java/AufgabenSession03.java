@@ -1,11 +1,11 @@
 import model.Saft;
 import model.Sorte;
 import prime.PrimeApi;
-import prime.PrimeApiImpl;
 
 import java.math.BigInteger;
 import java.time.Duration;
 import java.time.Instant;
+import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.TimeUnit;
@@ -82,8 +82,13 @@ public class AufgabenSession03 {
      * Gibt es eine bessere Signatur als BiFunction<Set<Sorte>, Set<Sorte>, Set<Sorte>>
      */
     static BiFunction<Set<Sorte>, Set<Sorte>, Set<Sorte>> task5() {
+        BinaryOperator<Set<Sorte>> union = (sorte1, sorte2) -> {
+            Set<Sorte> sorten = new HashSet<>(sorte1);
+            sorten.addAll(sorte2);
+            return sorten;
+        };
 
-        return null;
+        return union;
     }
 
 
@@ -94,7 +99,9 @@ public class AufgabenSession03 {
 
         BiFunction<Set<Sorte>, Set<Sorte>, Set<Sorte>> union = task5();
 
-        return null;
+        return (aSaft, bSaft) -> new Saft(union.apply(aSaft.getSorte(), bSaft.getSorte())
+                , aSaft.getMilliliter() + bSaft.getMilliliter());
+
     }
 
     /**
