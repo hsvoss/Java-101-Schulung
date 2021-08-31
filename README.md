@@ -18,7 +18,7 @@ Programmiersprache) bestehen.
    CompletableFuture ([Aufzeichnung](https://visionconsultinggmbhcokg-my.sharepoint.com/:v:/g/personal/hendrik_sebastian_voss_visionconsultinggmbhcokg_onmicrosoft_com/EbEGxbLiPepPvnXV64bwCR8BgmHYDlOnk8f9H9_OMTTxHg?e=g3g0a5))
 1. [17.08.21 - 16 Uhr] Streams (Voraussetzung: gute Kenntnisse von Lambdas &
    Collection) ([Aufzeichnung](https://visionconsultinggmbhcokg-my.sharepoint.com/:v:/g/personal/hendrik_sebastian_voss_visionconsultinggmbhcokg_onmicrosoft_com/Ee77X4dJKqBGo3YdL4muwLYBVLYJwkTZ7kCFG_QGGhFDpQ?e=OyQqVT))
-1. [31.08.21 - 16 Uhr] Maven
+1. [31.08.21 - 16 Uhr] Maven ([Aufzeichnung](https://visionconsultinggmbhcokg-my.sharepoint.com/:v:/g/personal/hendrik_sebastian_voss_visionconsultinggmbhcokg_onmicrosoft_com/EaGTAWAa_elGhOY8MlFax1sB03aO5EHyAXDtnPaPxfrg6Q?e=PN0vPr))
 1. [14.09.21 - 16 Uhr] Lombok und MapStruct
 1. [TBA] Dinge die es seit 2018 gibt...
 1. [TBA] Spring Boot - consume an API
