@@ -12,18 +12,21 @@ Programmiersprache) bestehen.
 
 1. [06.07.21 - 16 Uhr] Uhr lesen für Informatiker mit
    java.time.* ([Aufzeichnung](https://visionconsultinggmbhcokg-my.sharepoint.com/:v:/g/personal/hendrik_sebastian_voss_visionconsultinggmbhcokg_onmicrosoft_com/Ec3PKQn_AXBLlmc_2MFXGFAB78GzB2XG-LVUor3sNAfzkQ?e=NTHBaQ))
-1. [20.07.21 - 16 Uhr] Collection, Map &
+2. [20.07.21 - 16 Uhr] Collection, Map &
    BigDecimal ([Aufzeichnung](https://visionconsultinggmbhcokg-my.sharepoint.com/:v:/g/personal/hendrik_sebastian_voss_visionconsultinggmbhcokg_onmicrosoft_com/Efva_mebiZlJt3uIPtndiFgBAWWmoOFd056dI5eauYdEzw?e=R98Y1e))
-1. [03.08.21 - 16 Uhr] Lambdas &
+3. [03.08.21 - 16 Uhr] Lambdas &
    CompletableFuture ([Aufzeichnung](https://visionconsultinggmbhcokg-my.sharepoint.com/:v:/g/personal/hendrik_sebastian_voss_visionconsultinggmbhcokg_onmicrosoft_com/EbEGxbLiPepPvnXV64bwCR8BgmHYDlOnk8f9H9_OMTTxHg?e=g3g0a5))
-1. [17.08.21 - 16 Uhr] Streams (Voraussetzung: gute Kenntnisse von Lambdas &
+4. [17.08.21 - 16 Uhr] Streams (Voraussetzung: gute Kenntnisse von Lambdas &
    Collection) ([Aufzeichnung](https://visionconsultinggmbhcokg-my.sharepoint.com/:v:/g/personal/hendrik_sebastian_voss_visionconsultinggmbhcokg_onmicrosoft_com/Ee77X4dJKqBGo3YdL4muwLYBVLYJwkTZ7kCFG_QGGhFDpQ?e=OyQqVT))
-1. [31.08.21 - 16 Uhr] Maven ([Aufzeichnung](https://visionconsultinggmbhcokg-my.sharepoint.com/:v:/g/personal/hendrik_sebastian_voss_visionconsultinggmbhcokg_onmicrosoft_com/EaGTAWAa_elGhOY8MlFax1sB03aO5EHyAXDtnPaPxfrg6Q?e=PN0vPr))
-1. [14.09.21 - 16 Uhr] Lombok und MapStruct
-1. [TBA] Dinge die es seit 2018 gibt...
-1. [TBA] Spring Boot - consume an API
-1. [TBA] Spring Boot - provide an API
-1. [TBA] OpenApi
+5. [31.08.21 - 16 Uhr]
+   Maven ([Aufzeichnung](https://visionconsultinggmbhcokg-my.sharepoint.com/:v:/g/personal/hendrik_sebastian_voss_visionconsultinggmbhcokg_onmicrosoft_com/EaGTAWAa_elGhOY8MlFax1sB03aO5EHyAXDtnPaPxfrg6Q?e=PN0vPr))
+6. [14.09.21 - 16 Uhr] Lombok und
+   MapStruct ([Aufzeichnung](https://visionconsultinggmbhcokg-my.sharepoint.com/:v:/g/personal/hendrik_sebastian_voss_visionconsultinggmbhcokg_onmicrosoft_com/EacOWuTDHWRHizijcC0f4VQB3VKmoSPbadOnx29BsZRgDQ?e=rdkhor))
+7. [28.09.21 - 16 Uhr] Spring Boot - Die Themen muss ich noch ausarbeiten und planen wie ich Session 7 und 8 schneide.
+8. [12.10.21 - 16 Uhr] Spring Boot - Siehe Session 7.
+
+Themen, die entweder in Session 7 oder 8 behandelt werden: Dependency Injection, Maven, provide an API, consume an API,
+REST, OpenApi
 
 Die Schulung soll im 2-Wochentakt stattfinden und bleibt Überschneidungsfrei mit Lutz Angular-Schulung.
 
