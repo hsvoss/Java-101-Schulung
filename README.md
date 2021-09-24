@@ -1,6 +1,6 @@
 # Java-101-Schulung
 
-#### Arbeitstitel: "Coole Dinge, die das SDK Out-of-the-box mitbringt und leider viele Java-Entwickler nicht kennen"
+#### Arbeitstitel: "Coole Dinge, die das SDK und einige gängige Libraries mitbringen und leider viele Java-Entwickler nicht kennen"
 
 ## Zielgruppe
 
