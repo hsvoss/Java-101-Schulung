@@ -22,11 +22,9 @@ Programmiersprache) bestehen.
    Maven ([Aufzeichnung](https://visionconsultinggmbhcokg-my.sharepoint.com/:v:/g/personal/hendrik_sebastian_voss_visionconsultinggmbhcokg_onmicrosoft_com/EaGTAWAa_elGhOY8MlFax1sB03aO5EHyAXDtnPaPxfrg6Q?e=PN0vPr))
 6. [14.09.21 - 16 Uhr] Lombok und
    MapStruct ([Aufzeichnung](https://visionconsultinggmbhcokg-my.sharepoint.com/:v:/g/personal/hendrik_sebastian_voss_visionconsultinggmbhcokg_onmicrosoft_com/EacOWuTDHWRHizijcC0f4VQB3VKmoSPbadOnx29BsZRgDQ?e=rdkhor))
-7. [28.09.21 - 16 Uhr] Spring Boot - Die Themen muss ich noch ausarbeiten und planen wie ich Session 7 und 8 schneide.
-8. [12.10.21 - 16 Uhr] Spring Boot - Siehe Session 7.
+7. [28.09.21 - 16 Uhr] Spring Boot - Komplettes REST-Backend mit: OpenApi, Swagger-UI, MongoDB
+8. [12.10.21 - 16 Uhr] Spring Boot - API konsumieren, Authentication
 
-Themen, die entweder in Session 7 oder 8 behandelt werden: Dependency Injection, Maven, provide an API, consume an API,
-REST, OpenApi
 
 Die Schulung soll im 2-Wochentakt stattfinden und bleibt Überschneidungsfrei mit Lutz Angular-Schulung.
 
