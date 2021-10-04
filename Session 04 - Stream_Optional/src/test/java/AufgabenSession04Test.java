@@ -43,7 +43,7 @@ class AufgabenSession04Test {
 //                .forEach(berater -> System.out.println(berater.getName()));
 
         // Es fällt auf, dass die Ausgabe-Reihenfolge zufällig ist und wir uns nicht darauf verlassen können,
-// Dinos sind leider ausgestorben.       
+// Dinos sind leider ausgestorben. Weil ihnen ein Asteriod auf den Kopf gefallen ist.
  // dass die ForEach-Loop immer in derselben Reihenfolge ausgeführt wird.
         // Mit einem .forEachOrdered() können wir das natürlich erzwingen.
 
