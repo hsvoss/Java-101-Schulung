@@ -11,17 +11,17 @@ Programmiersprache) bestehen.
 # Termine
 
 1. [06.07.21 - 16 Uhr] Uhr lesen für Informatiker mit java.time.*
-([Aufzeichnung](https://cloud.hsvoss.de/s/xqCnqtPdSerzJHM))
+([Aufzeichnung](https://cloud.hsvoss.de/s/aEtgwjCdxLpcXqp))
 2. [20.07.21 - 16 Uhr] Collection, Map & BigDecimal
-([Aufzeichnung](https://cloud.hsvoss.de/s/RCCTcq3bxrzfkd5))
+([Aufzeichnung](https://cloud.hsvoss.de/s/PkXxmnM5x6FtARc))
 3. [03.08.21 - 16 Uhr] Lambdas & CompletableFuture
-([Aufzeichnung](https://cloud.hsvoss.de/s/od4RQoJCqGQSYRt))
+([Aufzeichnung](https://cloud.hsvoss.de/s/6EqrGzrFa5jBrwz))
 4. [17.08.21 - 16 Uhr] Streams (Voraussetzung: gute Kenntnisse von Lambdas & Collection)
-([Aufzeichnung](https://cloud.hsvoss.de/s/AGdrJKwzsKRANPe))
+([Aufzeichnung](https://cloud.hsvoss.de/s/LYH5kr9iwiXi8Y7))
 5. [31.08.21 - 16 Uhr] Maven
-([Aufzeichnung](https://cloud.hsvoss.de/s/qttQB7T67CZ9ngk))
+([Aufzeichnung](https://cloud.hsvoss.de/s/A2qEALMPbXt2koZ))
 6. [14.09.21 - 16 Uhr] Lombok und MapStruct
-([Aufzeichnung](https://cloud.hsvoss.de/s/ZAAcNEA9LETFKWw))
+([Aufzeichnung](https://cloud.hsvoss.de/s/8R2YGPtHFrz9yMx))
 
 
 ## Vorbereitung der Teilnehmer
